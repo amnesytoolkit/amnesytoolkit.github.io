@@ -1,0 +1,72 @@
+.intro-text{
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    text-shadow: 2px 7px 5px rgba(46, 0, 145, 0.062), 
+    0px -4px 10px rgba(255, 0, 140, 0.171);
+    font-size: 6vmin;
+}
+
+article {
+    margin-top: -100px;
+    background: linear-gradient(
+      to right, 
+      rgb(255, 32, 32),
+      rgb(228, 161, 245)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 140px;
+    line-height: 1.1;
+  }
+  
+  body {
+    background: hsl(204 100% 5%);
+    
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui;
+    font-size: min(200%, 5vmin);
+  }
+  
+  h1, p, body {
+    margin: 0;
+  }
+  
+  p {
+    font-family: "Dank Mono", ui-monospace, monospace;
+  }
+  
+  html {
+    block-size: 100%;
+    inline-size: 100%;
+  }
+
+body{
+    background: hsl(204 100% 5%);
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0.1;
+    }
+}
+
+#propic{
+    height: 200px;
+    border-radius: 50%;
+}
+
+a{
+  text-decoration: none;
+}
+
+h3{
+  text-decoration: underline;
+}
