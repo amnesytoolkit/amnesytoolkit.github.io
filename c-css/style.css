@@ -21,7 +21,13 @@ article {
     text-align: center;
   }
   #socials{
-    word-break: break-word; 
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    white-space: pre-line;
     font-size: 7vmin;
   }
 
