@@ -22,11 +22,11 @@ article {
   }
   #socials{
     word-break: break-word; 
-    font-size: large;
+    font-size: larger;
   }
 
   h1 {
-    font-size: 140px;
+    font-size: 160px;
     line-height: 1.1;
   }
   
