@@ -1,4 +1,6 @@
 .intro-text{
+
+    word-break: break-all; 
     color: #fff;
     font-family: 'Roboto Slab', serif;
     text-shadow: 2px 7px 5px rgba(46, 0, 145, 0.062), 
@@ -7,7 +9,8 @@
 }
 
 article {
-    margin-top: -100px;
+    margin-left: 20px;
+    margin-right: 20px;
     background: linear-gradient(
       to right, 
       rgb(255, 32, 32),
@@ -17,7 +20,11 @@ article {
     -webkit-text-fill-color: transparent;
     text-align: center;
   }
-  
+  #socials{
+    word-break: break-word; 
+    font-size: large;
+  }
+
   h1 {
     font-size: 140px;
     line-height: 1.1;

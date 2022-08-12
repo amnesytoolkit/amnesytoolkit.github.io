@@ -27,8 +27,8 @@
             <div id="container">
                 <article>
                     <img id="propic" src="./c-images/propic.jpeg">
-                    <h1>amnesy</h1>
-                    <h3><u><a href="https://tryhackme.com/p/amnesy">THM</a> - 
+                    <h1 id="username">amnesy</h1>
+                    <h3 id="socials"><u><a href="https://tryhackme.com/p/amnesy">THM</a> - 
                         <a href="https://www.mintly.it">Mintly</a> - 
                         <a href="https://lichess.org/@/amnesy">Lichess</a> - 
                         <a href="https://t.me/amnesytoolkit">Telegram</a> - 
@@ -101,6 +101,11 @@
                 cursorChar: "|"
             });
 
+        </script>
+        <script>
+            if ($("body").width() < 800){
+                $("#username").css("font-size", $("body").width()*1/8);
+            }            
         </script>
         
     </body>
